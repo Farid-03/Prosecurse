@@ -1,0 +1,97 @@
+.georgiya{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    .georgiya-content{
+        h2{
+            font-family: "Martel", sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.20000000298023224px;
+        }
+        p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.20000000298023224px;
+        }
+        .georgiya_boxes{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            .georg_box{
+                button{
+                    padding: 10px 36px;
+                    gap: 10px;
+                    width: 155px;
+                    height: 48px;
+                    border: 1px solid #D1A246;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 15px;
+                }
+                span{
+                    color: #D1A246;
+                } 
+                h5{
+                    color: black;
+                   font-family: "Martel", sans-serif;
+                   font-size: 16px;
+                   font-weight: 700;
+                   line-height: 24px;
+                   letter-spacing: 0.10000000149011612px;
+                   padding-top: 5px;
+                   }
+                p{
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.20000000298023224px;
+                }
+                img{
+                    margin-top: 75px;
+                }
+                width: 320px;
+                height: 320px;
+                border-radius: 5px;
+                background: #FAFAFA;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+            .grey{
+                width: 350px;
+                height: 390px;
+                background: #252B42 ;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                p{
+                    color: white;
+                }
+                h5{
+                 color: white;
+                font-family: "Martel", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.10000000149011612px;
+                padding-top: 5px;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .georgia{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        .georgiya_boxes{
+            flex-direction: column;
+            margin-top: 40px;
+        }
+    }
+}
+

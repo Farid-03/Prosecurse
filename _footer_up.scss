@@ -1,0 +1,24 @@
+.footer_up{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    text-align: center;
+    .footer_up{
+        display: flex;
+        justify-content: space-around;
+        .footer_up-left{
+            h6{
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.20000000298023224px;
+            }
+        }
+        .footer_up-right{
+            img{
+                margin-left: 10px;
+            }
+        }
+    }
+}

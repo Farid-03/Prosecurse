@@ -1,0 +1,32 @@
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    background: linear-gradient(360deg, #295C7A -1.04%, #0072B5 100%);
+    .footer_content{
+        display: flex;
+        padding: 50px;
+        justify-content: space-between;
+        .f_1{
+            li{
+                margin-top: 10px;
+                color: white;
+                h5{
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.10000000149011612px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 390px) {
+    .footer{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        .footer_content{
+            flex-direction: column;
+        }
+    }
+}

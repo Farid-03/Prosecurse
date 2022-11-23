@@ -1,0 +1,78 @@
+.companies{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    background-color: #F5F5F5;
+    .companies_flex{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 63px;
+        padding-bottom: 25px;
+    }
+    .modal{
+        width: 986px;
+        height: 124px;
+        background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+        border-radius: 2px;
+        padding: 30px 50px;
+        position: relative;
+        top: 52px;
+        left: 75px;
+        z-index: 1001px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        .modall{
+            h3{
+                font-family: "Martel", sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0.10000000149011612px;
+                color: white;
+                width: 253px;
+                height: 64px;
+            }
+        }
+        .modal-input{
+            input{
+                padding: 15px 40px;
+                border-radius: 10px;
+            }
+            button{
+                background: #D0A144;
+                padding: 16px;
+                border: 1px solid #E6E6E6;
+                border-radius:5px;
+            }
+        }
+    }
+}
+.bgcolor{
+    width: 100%;
+    height: 77px;
+    background-color:  #252B42;
+}
+
+@media (max-width: 390px) {
+    .companies{
+        margin-top: 75px;
+        margin-bottom: 75px;
+        .companies_flex{
+            flex-direction: column;
+            padding-top: 30px;
+            padding-bottom: 12px;
+        }
+        .modal{
+         width: 400px;
+        height: 200px;
+        background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+        border-radius: 2px;
+        padding: 30px 50px;
+        position: relative;
+        top: 52px;
+        left: -5px;
+        flex-direction: column; 
+        }
+    }
+}

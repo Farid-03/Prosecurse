@@ -1,0 +1,99 @@
+.video{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .video_content{
+        h2{
+            font-family: "Martel",sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.20000000298023224px;
+        }
+        p{
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-top: 15px;
+            margin-bottom: 100px;
+            letter-spacing: 0.20000000298023224px;
+        }
+        .video_flex{
+            display: flex;
+            gap: 12%;
+            .video_flex-right{
+                h2{
+                    font-family: "Martel", sans-serif;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 50px;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-bottom: 50px;
+                }
+                .quick_flex{
+                    display: flex;
+                    gap: 5%;
+                    .h_class{
+                        h5{
+                        font-family: "Martel", sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0.10000000149011612px;
+                        }
+                        h6{
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0.20000000298023224px;
+                        color: #737373; 
+                        }
+                    }
+                }
+                .quick_flex2{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+   .video{
+    padding-top: 50px;
+    padding-bottom: 50px;
+     .video_content{
+        h2{
+            font-size: 20px;
+            line-height: 25px;
+        }
+        p{
+            font-size: 7px;
+            line-height: 10px;
+        }
+        .video_flex{
+            flex-direction: column;
+            .video_flex-left{
+                img{
+                    width: 350px;
+                }
+            }
+            .video_flex-right{
+                h2{
+                    font-size: 25px;
+                }
+            }
+        }
+     }
+   } 
+}

@@ -1,0 +1,46 @@
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    .nav_left{
+        display: flex;
+        h3{
+            font-family: "Martel", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            padding-top: 36px;
+            padding-bottom: 36px;
+        }
+        
+        ul{
+            display: flex;
+            padding-left: 36px;
+            padding-top: 44px;
+            padding-bottom: 40px;
+            cursor: pointer;
+            .li-4{
+                padding-left: 21px;
+            }
+            .li-3{
+                padding-left: 21px;
+            }
+            .li-2{
+                padding-left: 21px;
+            }
+        }
+    }
+    .nav_right{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav_left{
+        ul{
+            font-size: 1px;
+        }
+    }
+}
